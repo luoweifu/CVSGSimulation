@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=cppapplication_test
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/cppapplication_test
+CND_ARTIFACT_NAME_Debug=cvsgsimulation
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/cvsgsimulation
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=cppapplicationtest.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/cppapplicationtest.tar
+CND_PACKAGE_NAME_Debug=cvsgsimulation.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/cvsgsimulation.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=cppapplication_test
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/cppapplication_test
+CND_ARTIFACT_NAME_Release=cvsgsimulation
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/cvsgsimulation
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=cppapplicationtest.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/cppapplicationtest.tar
+CND_PACKAGE_NAME_Release=cvsgsimulation.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/cvsgsimulation.tar
 #
 # include compiler specific variables
 #
