@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/AircraftCarrier.o \
 	${OBJECTDIR}/CVSG.o \
 	${OBJECTDIR}/Destroyer.o \
+	${OBJECTDIR}/PublicFunction.o \
 	${OBJECTDIR}/ShipboardAircraft.o \
 	${OBJECTDIR}/main.o
 
@@ -80,6 +81,11 @@ ${OBJECTDIR}/Destroyer.o: Destroyer.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Destroyer.o Destroyer.cpp
+
+${OBJECTDIR}/PublicFunction.o: PublicFunction.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PublicFunction.o PublicFunction.cpp
 
 ${OBJECTDIR}/ShipboardAircraft.o: ShipboardAircraft.cpp 
 	${MKDIR} -p ${OBJECTDIR}

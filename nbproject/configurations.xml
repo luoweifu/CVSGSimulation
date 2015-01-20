@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="94">
+<configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -7,6 +7,8 @@
       <itemPath>AircraftCarrier.h</itemPath>
       <itemPath>CVSG.h</itemPath>
       <itemPath>Destroyer.h</itemPath>
+      <itemPath>PublicFunction.h</itemPath>
+      <itemPath>RetCode.h</itemPath>
       <itemPath>ShipboardAircraft.h</itemPath>
       <itemPath>stdafx.h</itemPath>
     </logicalFolder>
@@ -20,6 +22,7 @@
       <itemPath>AircraftCarrier.cpp</itemPath>
       <itemPath>CVSG.cpp</itemPath>
       <itemPath>Destroyer.cpp</itemPath>
+      <itemPath>PublicFunction.cpp</itemPath>
       <itemPath>ShipboardAircraft.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -56,6 +59,12 @@
       <item path="Destroyer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Destroyer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PublicFunction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PublicFunction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetCode.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ShipboardAircraft.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -97,6 +106,12 @@
       <item path="Destroyer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Destroyer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PublicFunction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PublicFunction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RetCode.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ShipboardAircraft.cpp" ex="false" tool="1" flavor2="0">
       </item>

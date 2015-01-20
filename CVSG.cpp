@@ -11,6 +11,7 @@
 #include "CVSG.h"
 #include "AircraftCarrier.h"
 #include "ShipboardAircraft.h"
+#include "PublicFunction.h"
 
 //==================================================
 
@@ -22,11 +23,8 @@ CVSG::CVSG(const CVSG& orig) {
 }
 
 CVSG::~CVSG() {
-    if(m_pAircraftCarrier != NULL)
-    {
-        delete m_pAircraftCarrier;
-        m_pAircraftCarrier = NULL;
-    }
+    DELETE_POINTER(m_pAircraftCarrier);
+    
     for(ShipAircVec::iterator itr = m_vecShipboardAircraft.begin(); itr != m_vecShipboardAircraft.end(); itr ++)
     {
         if(*itr != NULL)
